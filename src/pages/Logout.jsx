@@ -48,7 +48,7 @@ const LogoutContainer = styled.div`
   justify-content: center;
   align-items: center;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-  background-color: #8966c666;
+  background-color: #8966c6;
   color: black;
 `;
 
