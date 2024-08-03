@@ -6,7 +6,7 @@ import { bannerData } from '../utils/products';
 const Banner = () => {
     return (
         <Carousel
-            swipeable={false}
+            swipeable={true}
             draggable={false}
             responsive={responsive}
             infinite={true}
