@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   const adURL =
-    'https://rukminim1.flixcart.com/flap/464/708/image/1f03e99f6dc9f7a6.jpg?q=70';
+    'https://rukminim1.flixcart.com/flap/464/708/image/1f03e99f6dc9f7a6.jpg?';
 
   const dispatch = useDispatch();
 
@@ -78,7 +78,7 @@ const Home = () => {
                 </LeftComponent>
 
                 <RightComponent>
-                  <img src={adURL} alt="" style={{ width: 217 }} />
+                  <img src={adURL} alt="" style={{ width: 217 }} onError = () =>{console.log("Error Found"); />
                 </RightComponent>
               </Component>
 
